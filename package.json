@@ -1,0 +1,24 @@
+{
+  "name": "zapret-unified",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "sign:setup": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/sign-setup.ps1"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.5.0",
+    "jsqr": "^1.4.0"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.0.0",
+    "@tauri-apps/cli": "^1.5.0",
+    "svelte": "^4.2.0",
+    "typescript": "^5.3.0",
+    "vite": "^5.0.0"
+  }
+}

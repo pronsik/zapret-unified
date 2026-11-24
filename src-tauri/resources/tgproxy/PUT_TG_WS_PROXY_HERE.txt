@@ -1,0 +1,2 @@
+Сюда положить собранный бинарник tg-ws-proxy (tg-ws-proxy.exe)
+из https://github.com/Flowseal/tg-ws-proxy

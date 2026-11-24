@@ -1,0 +1,51 @@
+{
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build",
+    "devPath": "http://localhost:1420",
+    "distDir": "../dist"
+  },
+  "package": {
+    "productName": "zapret-unified",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "bundle": {
+      "active": true,
+      "identifier": "com.local.zapret-unified",
+      "icon": ["icons/icon.ico"],
+      "resources": ["resources/**/*"],
+      "windows": {
+        "webviewInstallMode": { "type": "downloadBootstrapper" },
+        "wix": null,
+        "nsis": {
+          "installMode": "perMachine"
+        }
+      }
+    },
+    "systemTray": { "iconPath": "icons/icon.png", "iconAsTemplate": false },
+    "windows": [
+      {
+        "title": "zapret-unified",
+        "width": 960,
+        "height": 700,
+        "minWidth": 640,
+        "minHeight": 480,
+        "resizable": true,
+        "decorations": false,
+        "transparent": true,
+        "center": true
+      }
+    ],
+    "allowlist": {
+      "shell": { "open": "^(https?://|mailto:|tel:|tg://).+" },
+      "dialog": { "open": true },
+      "clipboard": { "readText": true, "writeText": true },
+      "protocol": { "asset": true, "assetScope": ["**"] },
+      "window": { "all": true }
+    },
+    "security": {
+      "csp": null
+    }
+  }
+}

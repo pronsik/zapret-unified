@@ -1,0 +1,26 @@
+# зависимости и сборка
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/gen/
+.vite/
+
+# временные файлы Vite и редакторов
+*.timestamp-*.mjs
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# скачанные во время работы компоненты (не храним в репозитории)
+src-tauri/resources/**/*.exe
+src-tauri/resources/**/*.dll
+src-tauri/resources/**/*.sys
+src-tauri/resources/**/*.bin
+src-tauri/resources/**/*.node
+
+# локальные конфиги и служебные файлы
+structure.txt
+.env

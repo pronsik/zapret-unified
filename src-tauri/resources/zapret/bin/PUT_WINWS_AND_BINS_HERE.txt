@@ -1,0 +1,4 @@
+Сюда положить содержимое bin/ из релиза
+https://github.com/Flowseal/zapret-discord-youtube
+(winws.exe, WinDivert.dll/.sys, quic_initial_www_google_com.bin,
+tls_clienthello_www_google_com.bin и т.д.)

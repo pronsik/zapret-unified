@@ -1,0 +1,5 @@
+Сюда положить xray.exe из официального релиза XTLS/Xray-core
+(https://github.com/XTLS/Xray-core/releases) — обычно архив Xray-windows-64.zip,
+внутри которого лежит xray.exe. Он и используется как ядро VPN-страницы
+(VLESS/VMess/Trojan/Shadowsocks) — сама программа только генерирует ему config.json
+и управляет процессом, все протоколы реализует сам xray-core.

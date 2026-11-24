@@ -1,0 +1,2 @@
+Сюда положить lists/list-general.txt и другие hostlist-файлы
+из того же релиза Flowseal/zapret-discord-youtube.
